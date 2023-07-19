@@ -42,19 +42,19 @@ b_lue='blue'
 y_ellow='yellow'
 
 
-direction=(input("left or right?"))
+direction=(input("left or right?")).lower()
 if direction == 'right':
   print("Fall into a hole. Game over.")
 elif direction == l:
 
   
-    transportation=(input("swim or wait?"))
+    transportation=(input("swim or wait?")).lower()
     if transportation == s:
         print("Attacked by trout. Game Over.")
     elif transportation == w:
 
 
-        doorcolor=(input("Which door?"))
+        doorcolor=(input("Which door?")).lower()
 
         if doorcolor == r_ed:
             print("Burned by fire. Game Over.")
